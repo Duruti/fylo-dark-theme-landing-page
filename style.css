@@ -10,6 +10,8 @@ body{
 a{
    text-decoration: none;
    color: hsl(0, 0%, 100%) ;
+   margin: 0;
+   padding: 0;
 }
 h1{
    font-family: 'Raleway', sans-serif;
@@ -64,6 +66,7 @@ h1{
    width: 90%;
 }
 .btn{
+   margin-top: 20px;
    padding: 10px 80px;
    font-size: 18px;
    font-family: 'Open Sans', sans-serif;
@@ -121,6 +124,7 @@ h1{
 /* testimonies */
 .testimonies{
    margin: 50px 0;
+   margin-bottom: 150px;
    display: flex;
   
    justify-content: space-around;
@@ -163,10 +167,122 @@ h1{
    background-image: url(images/profile-3.jpg);
 }
 
+/* Early Acces */
+.early-acces{
+   position: relative;
+   margin: 0 auto;
+   top : 135px;
+   width: 80%;
+   height: 275px;
+   background-color: hsl(217, 28%, 15%);
+   border-radius: 10px;
+   text-align: center;
+}
+.early-acces h2{
+   font-size: 40px;
+   padding : 20px 0 0px 0;
+}
+.early-acces p{
+   width: 625px;
+   margin: 0 auto;
+   font-size: 15px;
+   line-height: 25px;
+}
 
+.input-early-acces{
+
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.input-early-acces input{
+   font-size: 15px;
+   width: 480px;
+   height: 50px;
+   margin-right: 20px;
+   border-radius: 25px;
+   border-style: none;
+   padding-left: 20px;
+}
+.btn-early-Acces{
+   width: 200px;
+   height: 50px;
+   font-size: 15px;
+   text-align: center;
+   border-radius: 25px;
+   background-color: #4EC3D4;
+   border: none;
+   color : hsl(0, 0%, 100%);
+}
 /* Footer */
 
 footer{
-   height: 300px;
-   background-color: yellowgreen;
+   background-color: hsl(216, 53%, 9%);
+   padding-bottom: 250px;
+}
+.logoFooter{
+   margin-top: 250px;
+   margin-left: 150px;
+   
+}
+.footerInfo{
+   margin-top: 50px;
+   width: 80%;
+   height: 200px;
+   margin-left: 150px;
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+}
+.presentationFooter{
+   display: flex;
+   width: 30%;
+   height: 100%;
+   text-align: left;
+}
+.presentationFooter p{
+   margin-top: 0;
+   margin-left: 30px;
+}
+.presentationFooter img{
+   width: 20px;
+   height: 20px;
+}
+.contactFooter{
+  
+   width: 15%;
+   height: 100%;
+}
+.contact{
+   display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+}
+.contact img{
+   width: 20px;
+   height: 20px;
+}
+.contact p{
+   margin-top: 0;
+   margin-bottom: 10%;
+   padding: 0;
+}
+.answers{
+   width: 30%;
+   height: 70%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.answers a{
+  text-align: left;
+  margin-left: 30%;
+}
+.socials{
+   display: flex;
+   justify-content: space-around;
+   width: 10%;
+   height: 20%;
+   font-size: 25px;
+  
 }
